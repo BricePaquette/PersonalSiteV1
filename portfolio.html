@@ -71,10 +71,10 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="switcher-body">
       <h4>Choose Color:</h4>
       <ul class="color-options list-none">
-        <li class="c0" data-color="red" title="Default">Default</li>
-        <li class="c1" data-color="blue" title="Red">Red</li>
-        <li class="c2" data-color="green" title="Green">Green</li>
-        <li class="c3" data-color="yellow" title="Blue">Blue</li>
+        <li class="c0" data-color="red" title="Red" onclick="setColor('red')">Red</li>
+        <li class="c1" data-color="blue" title="Blue" onclick="setColor('blue')">Blue</li>
+        <li class="c2" data-color="green" title="Green" onclick="setColor('green')">Green</li>
+        <li class="c3" data-color="yellow" title="Yellow" onclick="setColor('yellow')">Yellow</li>
       </ul>
     </div>
   </div>
@@ -91,8 +91,7 @@ FACEBOOK: https://www.facebook.com/themefisher
           <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
             <div class="page-title text-center">
               <h2>Port<span class="primary">folio</span> <span class="title-bg">works</span></h2>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat.</p>
+              <p>Below I displayed a few projects I am proud of, enjoy :)</p>
             </div>
           </div>
         </div> <!-- /.row -->
@@ -101,65 +100,78 @@ FACEBOOK: https://www.facebook.com/themefisher
           <div class="col-xs-12">
             <ul class="filter list-inline">
               <li><a href="#" class="active" data-filter="*">All</a></li>
-              <li><a href="#" data-filter=".Photoshop">Photoshop</a></li>
-              <li><a href="#" data-filter=".Illustrator">Illustrator</a></li>
-              <li><a href="#" data-filter=".Indesign">Indesign</a></li>
-              <li><a href="#" data-filter=".Artworks">Artworks</a></li>
+              <li><a href="#" data-filter=".C#">C#</a></li>
+              <li><a href="#" data-filter=".MVC">MVC</a></li>             
             </ul>
           </div>
         </div>
 
         <div class="row isotope-gutter">
-          <div class="col-xs-12 col-sm-6 col-md-4 Photoshop Illustrator">
+          <div class="col-xs-12 col-sm-6 col-md-4 C#">
             <figure class="works-item">
               <img src="images/works/1.jpg" alt="">
               <div class="overlay"></div>
               <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
+                <h4>C# Dungeon Application</h4>
+                <p><a href="https://github.com/BricePaquette/DungeonApp" target="_blank">GitHub repository</a><br>
+                  
+                </p>
               </figcaption>
             </figure>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 Illustrator">
+          <div class="col-xs-12 col-sm-6 col-md-4 MVC">
             <figure class="works-item">
               <img src="images/works/2.jpg" alt="">
               <div class="overlay"></div>
               <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
+                <h4>StoreFront Application</h4>
+                <p><a href="#">GitHub repository</a><br>
+                  
+                </p>
+
               </figcaption>
             </figure>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 Indesign Photoshop">
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
             <figure class="works-item">
               <img src="images/works/3.jpg" alt="">
               <div class="overlay"></div>
               <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
+                <h4>ToDo API</h4>
+                <p><a href="#">GitHub repository</a><br>
+                  
+                </p>
               </figcaption>
             </figure>
           </div>
+
           <div class="col-xs-12 col-sm-6 col-md-4 Artworks Illustrator">
             <figure class="works-item">
               <img src="images/works/4.jpg" alt="">
               <div class="overlay"></div>
               <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
+                <h4>React ToDo</h4>
+                <p><a href="#">GitHub repository</a><br>
+                  
+                </p>
               </figcaption>
             </figure>
           </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 Photoshop">
+
+          <div class="col-xs-12 col-sm-6 col-md-4 MVC">
             <figure class="works-item">
               <img src="images/works/5.jpg" alt="">
               <div class="overlay"></div>
               <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
+                <h4>SAT</h4>
+                <p><a href="#">GitHub repository</a><br>
+                  
+                </p>
               </figcaption>
             </figure>
           </div>
+
         </div> <!-- /.row -->
       </div> <!-- /.container -->
 
@@ -190,6 +202,7 @@ Essential Scripts
 <script src="plugins/slick/slick.min.js"></script>
 
 <script src="js/script.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

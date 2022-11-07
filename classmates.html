@@ -25,7 +25,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 
   <!-- ** Basic Page Needs ** -->
   <meta charset="utf-8">
-  <title>Brice Paquette | Classmates</title>
+  <title>Brice Paquette | Portfolio</title>
 
   <!-- ** Mobile Specific Metas ** -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,7 +50,13 @@ FACEBOOK: https://www.facebook.com/themefisher
   
   <!--Favicon-->
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
-
+  <style>
+    img{
+      max-height: 250px;
+      width: auto;
+      
+    }
+  </style>
 </head>
 <body class="dark"><!-- set class="dark" on body tag for DARK-THEME -->
 
@@ -71,140 +77,128 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="switcher-body">
       <h4>Choose Color:</h4>
       <ul class="color-options list-none">
-        <li class="c0" data-color="red" title="Default">Default</li>
-        <li class="c1" data-color="blue" title="Red">Red</li>
-        <li class="c2" data-color="green" title="Green">Green</li>
-        <li class="c3" data-color="yellow" title="Blue">Blue</li>
+        <li class="c0" data-color="red" title="Red" onclick="setColor('red')">Red</li>
+        <li class="c1" data-color="blue" title="Blue" onclick="setColor('blue')">Blue</li>
+        <li class="c2" data-color="green" title="Green" onclick="setColor('green')">Green</li>
+        <li class="c3" data-color="yellow" title="Yellow" onclick="setColor('yellow')">Yellow</li>
       </ul>
     </div>
   </div>
 
-<section class="site-wrapper">
+<main class="site-wrapper">
   <div class="pt-table">
-    <div class="pt-tablecell page-services relative">
+    <div class="pt-tablecell page-works relative">
+      <!-- .close -->
       <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+      <!-- /.close -->
+
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-lg-offset-1 col-lg-10">
+          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
             <div class="page-title text-center">
-              <h2>Class<span class="primary">mates</span> <span class="title-bg">My Class</span></h2>
-              <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
-                notare quam littera gothica,quam nunc putamus parum claram anteposuerit.</p>
+              <h2>Class<span class="primary">mates</span> <span class="title-bg">Piers</span></h2>
+              <p>These are my classmates, all are great people feel free to check out their own sites!</p>
             </div>
+          </div>
+        </div> <!-- /.row -->
 
-            <div class="hexagon-menu services clear">
-              <div class="service-hex">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px" y="0px" viewBox="0 0 372 424.5" style="enable-background:new 0 0 372 424.5;"
-                  xml:space="preserve">
-                  <g>
-                    <polygon class="st0" points="359.9,314.1 186.9,414 14,314.1 14,114.4 186.9,14.6 359.9,114.4" />
-                    <polygon class="st1" points="331.2,297.6 186.9,380.9 42.6,297.6 42.6,131 186.9,47.6 331.2,131" />
-                  </g>
-                </svg>
+        
 
-                <div class="content">
-                  <div class="icon">
-                    <i class="et-line icon-lightbulb"></i>
-                  </div>
-                  <h4>Creative <br> Design</h4>
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consue.</p>
-                </div>
-              </div>
-              <div class="service-hex">
+        <div class="row isotope-gutter">
+          <div class="col-xs-10 col-sm-6 col-md-4 col-lg-3">
+            <figure class="works-item">
+              <img src="/images/Classmates/Sean.jpg" alt="Sean">
+              <div class="overlay"></div>
+              <figcaption class="works-inner">
+                <h4>Sean</h4>
+                <p><a href="#" target="_blank">Sean's Site</a><br>
+                  
+                </p>
+              </figcaption>
+            </figure>
+          </div>
 
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px" y="0px" viewBox="0 0 372 424.5" style="enable-background:new 0 0 372 424.5;"
-                  xml:space="preserve">
-                  <g>
-                    <polygon class="st0" points="359.9,314.1 186.9,414 14,314.1 14,114.4 186.9,14.6 359.9,114.4" />
-                    <polygon class="st1" points="331.2,297.6 186.9,380.9 42.6,297.6 42.6,131 186.9,47.6 331.2,131" />
-                  </g>
-                </svg>
-                <div class="content">
-                  <div class="icon">
-                    <i class="et-line icon-mobile"></i>
-                  </div>
-                  <h4>Responsive <br> Layout</h4>
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consue.</p>
-                </div>
-              </div>
-              <div class="service-hex">
-
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px" y="0px" viewBox="0 0 372 424.5" style="enable-background:new 0 0 372 424.5;"
-                  xml:space="preserve">
-                  <g>
-                    <polygon class="st0" points="359.9,314.1 186.9,414 14,314.1 14,114.4 186.9,14.6 359.9,114.4" />
-                    <polygon class="st1" points="331.2,297.6 186.9,380.9 42.6,297.6 42.6,131 186.9,47.6 331.2,131" />
-                  </g>
-                </svg>
-                <div class="content">
-                  <div class="icon">
-                    <i class="et-line icon-profile-male"></i>
-                  </div>
-                  <h4>User <br> Friendly</h4>
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consue.</p>
-                </div>
-              </div>
-              <div class="service-hex">
-
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px" y="0px" viewBox="0 0 372 424.5" style="enable-background:new 0 0 372 424.5;"
-                  xml:space="preserve">
-                  <g>
-                    <polygon class="st0" points="359.9,314.1 186.9,414 14,314.1 14,114.4 186.9,14.6 359.9,114.4" />
-                    <polygon class="st1" points="331.2,297.6 186.9,380.9 42.6,297.6 42.6,131 186.9,47.6 331.2,131" />
-                  </g>
-                </svg>
-                <div class="content">
-                  <div class="icon">
-                    <i class="et-line icon-heart"></i>
-                  </div>
-                  <h4>Lovely <br> Animation</h4>
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consue.</p>
-                </div>
-              </div>
-              <div class="service-hex">
-
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px" y="0px" viewBox="0 0 372 424.5" style="enable-background:new 0 0 372 424.5;"
-                  xml:space="preserve">
-                  <g>
-                    <polygon class="st0" points="359.9,314.1 186.9,414 14,314.1 14,114.4 186.9,14.6 359.9,114.4" />
-                    <polygon class="st1" points="331.2,297.6 186.9,380.9 42.6,297.6 42.6,131 186.9,47.6 331.2,131" />
-                  </g>
-                </svg>
-                <div class="content">
-                  <div class="icon">
-                    <i class="et-line icon-hotairballoon"></i>
-                  </div>
-                  <h4>Ready to <br> launch</h4>
-                  <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consue.</p>
-                </div>
-              </div>
-            </div>
-
-          </div> <!-- /.col-xs-12 -->
+          <div class="col-xs-10 col-sm-6 col-md-4 col-lg-3">
+            <figure class="works-item">
+              <img src="/images/Classmates/Colson.jpg" alt="Colson">
+              <div class="overlay"></div>
+              <figcaption class="works-inner">
+                <h4>Colson</h4>
+                <p><a href="#" target="_blank">Colson's Site</a><br>
+                  
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-4 col-lg-3">
+            <figure class="works-item">
+              <img src="/images/Classmates/Evan.jpg" alt="Evan">
+              <div class="overlay"></div>
+              <figcaption class="works-inner">
+                <h4>Evan</h4>
+                <p><a href="#" target="_blank">Evan's Site</a><br>
+                  
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-4 col-lg-3">
+            <figure class="works-item">
+              <img src="/images/Classmates/JD.jpg" alt="Jeffery">
+              <div class="overlay"></div>
+              <figcaption class="works-inner">
+                <h4>Jeffery</h4>
+                <p><a href="#" target="_blank">Jeffery's Site</a><br>
+                  
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-4 col-lg-offset-3 col-lg-3">
+            <figure class="works-item">
+              <img src="/images/Classmates/Natalie.jpg" alt="Natalie">
+              <div class="overlay"></div>
+              <figcaption class="works-inner">
+                <h4>Natalie</h4>
+                <p><a href="#" target="_blank">Natalie's Site</a><br>
+                  
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-xs-10 col-sm-6 col-md-4 col-lg-3">
+            <figure class="works-item">
+              <img src="/images/works/1.jpg" alt="Aaron">
+              <div class="overlay"></div>
+              <figcaption class="works-inner">
+                <h4>Aaron</h4>
+                <p><a href="#" target="_blank">Aaron's Site</a><br>
+                  
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+            </figure>
+          </div>
 
         </div> <!-- /.row -->
       </div> <!-- /.container -->
 
       <nav class="page-nav clear">
-  <div class="container">
-    <div class="flex flex-middle space-between">
-      <span class="prev-page"><a href="about.html" class="link">&larr; About</a></span>
-      <span class="copyright">Copyright &copy; 2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>.</span>
-      <span class="next-page"><a href="portfolio.html" class="link">Portfolio &rarr;</a></span>
-    </div>
-  </div>
+        <div class="container">
+          <div class="flex flex-middle space-between">
+            <span class="prev-page"><a href="about.html" class="link">&larr; About</a></span>
+            <span class="copyright">Copyright &copy; 2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>.</span>
+            <span class="next-page"><a href="portfolio.html" class="link">Portfolio &rarr;</a></span>
+          </div>
+        </div>
   <!-- /.page-nav -->
 </nav>
       <!-- /.container -->
 
     </div> <!-- /.pt-tablecell -->
   </div> <!-- /.pt-table -->
-</section> <!-- /.site-wrapper -->
+</main> <!-- /.site-wrapper -->
 
 
 <!-- 
@@ -217,6 +211,7 @@ Essential Scripts
 <script src="plugins/slick/slick.min.js"></script>
 
 <script src="js/script.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>

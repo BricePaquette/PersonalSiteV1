@@ -113,12 +113,13 @@
 			return false;
 		});
 		if ($(window).width() < 768 ) {            
-			//$(".preview-wrapper").removeClass("extend");
+			$(".preview-wrapper").removeClass("extend");
 		}
 		$(".color-options li").on("click", function(){			
 			$("#color-changer").attr({
 				"href":"css/colors/"+$(this).attr("data-color")+".css"
 			});
+			//localStorage.setItem('jsColor', color)
 			return false;
 		});
 	}
@@ -132,4 +133,58 @@
 		}, 1000);
 	});
 
+	/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+		Theme Changer
+	-=-=-=-=-=-=-=-=-=--=-=-=-=-=-*/
+	// function setColor(color) {
+	// 	let currentColor = 
+	// $('.color-options li').on('click', function(color) {
+
+	// 	switch (color) {
+	// 		case 'blue':
+	// 			currentColor.setAttribute('href', '/css/colors/blue.css')
+	// 			break;
+	// 		case 'green':
+	// 			currentColor.setAttribute('href', '/css/colors/green.css')
+	// 			break;
+	// 		case 'yellow':
+	// 			currentColor.setAttribute('href', '/css/colors/yellow.css')
+	// 			break;
+	// 		default:
+	// 			currentColor.setAttribute('href', '/css/colors/red.css')
+	// 			break;
+	// 	}
+	// 	localStorage.setItem('jsColor', color)
+
+	
+	// })
+	// if (localStorage.getItem('jsColor') != null) {
+	// 	setColor(localStorage.getItem('jsColor'))
+	// }
 })(jQuery);
+
+// function setColor(color) {
+// 	let currentColor = document.getElementById('#color-changer')
+
+// 	switch (color) {
+// 		case 'blue':
+// 			currentColor.setAttribute('href', '/css/colors/blue.css')
+// 			break;
+// 		case 'green':
+// 			currentColor.setAttribute('href', '/css/colors/green.css')
+// 			break;
+// 		case 'yellow':
+// 			currentColor.setAttribute('href', '/css/colors/yellow.css')
+// 			break;
+// 		default:
+// 			currentColor.setAttribute('href', '/css/colors/red.css')
+// 			break;
+// 	}
+// 	localStorage.setItem('jsColor', color)
+
+// }
+// if (localStorage.getItem('jsColor') != null) {
+// 	setColor(localStorage.getItem('jsColor'))
+// }
+// setColor();
+
