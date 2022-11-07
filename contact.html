@@ -25,7 +25,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 
   <!-- ** Basic Page Needs ** -->
   <meta charset="utf-8">
-  <title>Phantom - Bootstrap Portfolio Template</title>
+  <title>Brice Paquette | Contact</title>
 
   <!-- ** Mobile Specific Metas ** -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,7 +52,7 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
 </head>
-<body><!-- set class="dark" on body tag for DARK-THEME -->
+<body class="dark" id="theme"><!-- set class="dark" on body tag for DARK-THEME -->
 
   <div class="preloader">
     <div class="loading-mask"></div>
@@ -71,10 +71,10 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="switcher-body">
       <h4>Choose Color:</h4>
       <ul class="color-options list-none">
-        <li class="c0" data-color="red" title="Default">Default</li>
-        <li class="c1" data-color="blue" title="Red">Red</li>
-        <li class="c2" data-color="green" title="Green">Green</li>
-        <li class="c3" data-color="yellow" title="Blue">Blue</li>
+        <li class="c0" data-color="red" title="Red" onclick="setColor('red')">Red</li>
+        <li class="c1" data-color="blue" title="Blue" onclick="setColor('blue')">Blue</li>
+        <li class="c2" data-color="green" title="Green" onclick="setColor('green')">Green</li>
+        <li class="c3" data-color="yellow" title="Yellow" onclick="setColor('yellow')">Yellow</li>
       </ul>
     </div>
   </div>
@@ -90,9 +90,8 @@ FACEBOOK: https://www.facebook.com/themefisher
           <div class="row">
             <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
               <div class="page-title text-center">
-                <h2>Get in <span class="primary">touch</span> <span class="title-bg">Contact</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                  laoreet dolore magna aliquam erat volutpat.</p>
+                <h2>Contact <span class="primary">me</span> <span class="title-bg">Contact</span></h2>
+                <p>Feel free to contact me via any of the options below thank you!</p>
               </div>
             </div>
           </div> <!-- /.row -->
@@ -106,7 +105,7 @@ FACEBOOK: https://www.facebook.com/themefisher
                   </div>
                   <div class="media-body">
                     <h4>Email</h4>
-                    <p><a href="mailto:my_name@gmail.com">my_name@gmail.com</a></p>
+                    <p><a href="mailto:brice.paquette@gmail.com">brice.paquette@gmail.com</a></p>
                   </div>
                 </div>
               </div>
@@ -114,50 +113,22 @@ FACEBOOK: https://www.facebook.com/themefisher
               <div class="contact-block">
                 <div class="media">
                   <div class="media-left">
-                    <i class="tf-phone2"></i>
+                    <i class="tf-linkedin"></i>
                   </div>
                   <div class="media-body">
-                    <h4>Phone</h4>
-                    <p><a href="tel:+000-1111-2222">+000-1111-2222</a></p>
+                    <h4>LinkedIn</h4>
+                    <p><a href="https://www.linkedin.com/in/brice-paquette-04a0a61b0/" target="_blank">LinkedIn</a></p>
                   </div>
                 </div>
               </div>
               <!-- /.contact-block -->
-              <div class="contact-block">
-                <div class="media">
-                  <div class="media-left">
-                    <i class="tf-mobile"></i>
-                  </div>
-                  <div class="media-body">
-                    <h4>Skype</h4>
-                    <p><a href="skype:my_name">my_name</a></p>
-                  </div>
-                </div>
-              </div>
-              <!-- /.contact-block -->
+              
 
-              <ul class="contact-social">
-                <li>
-                  <span class="contact-social-hex"></span>
-                  <a href="www.fb.com/themefisher"><i class="tf-ion-social-facebook"></i></a>
-                </li>
-                <li>
-                  <span class="contact-social-hex"></span>
-                  <a href="www.twitter.com/themefisher"><i class="tf-ion-social-twitter"></i></a>
-                </li>
-                <li>
-                  <span class="contact-social-hex"></span>
-                  <a href="#"><i class="tf-ion-social-google"></i></a>
-                </li>
-                <li>
-                  <span class="contact-social-hex"></span>
-                  <a href="www.dribbble.com/themefisher"><i class="tf-ion-social-dribbble"></i></a>
-                </li>
-              </ul>
+              
             </div>
             <div class="col-xs-12 col-sm-7 col-md-7 col-md-offset-1 col-lg-offset-2">
               <div class="section-title clear">
-                <h3>Send me a meesage</h3>
+                <h3>Send me a meesage (Under Constuction)</h3>
                 <span class="bar-dark"></span>
                 <span class="bar-primary"></span>
               </div>
@@ -206,7 +177,7 @@ FACEBOOK: https://www.facebook.com/themefisher
         <nav class="page-nav clear">
           <div class="container">
             <div class="flex flex-middle space-between">
-              <span class="prev-page"><a href="testimonials.html" class="link">&larr; Prev Page</a></span>
+              <span class="prev-page"><a href="resume.html" class="link">&larr; Resume</a></span>
               <span class="copyright">Copyright &copy; 2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>.</span>
             </div>
           </div>
@@ -230,6 +201,6 @@ Essential Scripts
 <script src="plugins/slick/slick.min.js"></script>
 
 <script src="js/script.js"></script>
-
+<script src="/js/main.js"></script>
 </body>
 </html>

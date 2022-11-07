@@ -71,10 +71,10 @@ FACEBOOK: https://www.facebook.com/themefisher
     <div class="switcher-body">
       <h4>Choose Color:</h4>
       <ul class="color-options list-none">
-        <li class="c0" data-color="red" title="Default">Default</li>
-        <li class="c1" data-color="blue" title="Red">Red</li>
-        <li class="c2" data-color="green" title="Green">Green</li>
-        <li class="c3" data-color="yellow" title="Blue">Blue</li>
+        <li class="c0" data-color="red" title="Red" onclick="setColor('red')">Red</li>
+        <li class="c1" data-color="blue" title="Blue" onclick="setColor('blue')">Blue</li>
+        <li class="c2" data-color="green" title="Green" onclick="setColor('green')">Green</li>
+        <li class="c3" data-color="yellow" title="Yellow" onclick="setColor('yellow')">Yellow</li>
       </ul>
     </div>
   </div>
@@ -100,16 +100,21 @@ FACEBOOK: https://www.facebook.com/themefisher
               <figure class="author-thumb">
                 <img src="images/Me.jpg" alt="Me in a blue suit">
               </figure> <!-- /.author-bio -->
+            </div> <!-- /.about-author -->
               <div class="author-desc">
                 <p><b>Date of birth:</b> April 17th, 2002</p>
                 <p><b>Language:</b> English</p>
                 <p><b>Expert in:</b> .NET Framework</p>
-                <p><b>Freelance:</b> Available</p>
+                <p><b class="text-white">Freelance:</b> Available</p>
+                <br>
               </div>
               <!-- /.author-desc -->
-            </div> <!-- /.about-author -->
-            <p>I have worked in the service industry for the past four years as a server and cook. During the past four years I've picked up valuable experienve and developed
-              skills in that have helped me blossom into a great developer. These skills include organisation, problem solving, critical thinking, and multitasking abilities.</p>
+            
+            <p style="margin-bottom: 5em;">I have worked in the service industry for the past four years as a server and cook. 
+              During the past four years I've picked up valuable experienve and developed
+              skills in that have helped me blossom into a great developer. These skills include organisation, 
+              problem solving, critical thinking, and multitasking abilities.
+            </p>
           </div> <!-- /.col -->
 
           <div class="col-xs-12 col-md-6">
@@ -167,7 +172,7 @@ FACEBOOK: https://www.facebook.com/themefisher
       <nav class="page-nav clear">
   <div class="container">
     <div class="flex flex-middle space-between">
-      <span class="prev-page"><a href="welcome.html" class="link">&larr; Welcome</a></span>
+      <span class="prev-page"><a href="welcome.html" class="link">&larr; Home</a></span>
       <span class="copyright">Copyright &copy; 2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>.</span>
       <span class="next-page"><a href="classmates.html" class="link">Classmates &rarr;</a></span>
     </div>
@@ -190,6 +195,7 @@ Essential Scripts
 <script src="plugins/slick/slick.min.js"></script>
 
 <script src="js/script.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 </html>
