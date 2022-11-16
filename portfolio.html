@@ -48,8 +48,10 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- Theme Stylesheet -->
   <link rel="stylesheet" href="#" id="color-changer">
   
+  <!-- Personalized Styles -->
+  <link rel="stylesheet" href="/css/main.css">
   <!--Favicon-->
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" id="favicon">
 
 </head>
 <body class="dark"><!-- set class="dark" on body tag for DARK-THEME -->
@@ -100,14 +102,14 @@ FACEBOOK: https://www.facebook.com/themefisher
           <div class="col-xs-12">
             <ul class="filter list-inline">
               <li><a href="#" class="active" data-filter="*">All</a></li>
-              <li><a href="#" data-filter=".C#">C#</a></li>
+              <li><a href="#" data-filter=".C">C#</a></li>
               <li><a href="#" data-filter=".MVC">MVC</a></li>             
             </ul>
           </div>
         </div>
 
         <div class="row isotope-gutter">
-          <div class="col-xs-12 col-sm-6 col-md-4 C#">
+          <div class="col-xs-12 col-sm-6 col-md-4 C">
             <figure class="works-item">
               <img src="images/works/1.jpg" alt="">
               <div class="overlay"></div>
@@ -175,16 +177,21 @@ FACEBOOK: https://www.facebook.com/themefisher
         </div> <!-- /.row -->
       </div> <!-- /.container -->
 
-      <nav class="page-nav clear">
-  <div class="container">
-    <div class="flex flex-middle space-between">
-      <span class="prev-page"><a href="classmates.html" class="link">&larr; Classmates</a></span>
-      <span class="copyright">Copyright &copy; 2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>.</span>
-      <span class="next-page"><a href="resume.html" class="link">Resume &rarr;</a></span>
-    </div>
-  </div>
-  <!-- /.page-nav -->
-</nav>
+      <nav class="clear">
+        <div class="container">
+          <div class="row flex flex-middle space-between">
+
+              <a href="classmates.html" class="link col-lg-3">&larr; classmates</a>
+              <a href="resume.html" class="link col-lg-offset-9 col-lg-3">Resume &rarr;</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- /.page-nav -->
+<footer>
+  <hr class="copy-line">
+  <p class="text-center">Copyright &copy; 2021, Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>.</p>
+</footer>
       <!-- /.container -->
 
     </div> <!-- /.pt-tablecell -->
