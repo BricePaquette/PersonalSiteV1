@@ -1,0 +1,33 @@
+/* Bottom Nav */
+ul.nav-bottom{
+    list-style: none;
+    flex-direction: row;
+}
+footer p.copyright{
+    font-size: 1em;
+    text-align: center;
+}
+
+/* Classmates */
+figure.works-item img{
+    max-height: 85%;
+    max-width: auto;
+    
+  }
+
+  /* Resume */
+  .history-item{
+    padding-right: 10px;
+  }
+
+  /* for line above copyright */
+  .copy-line{
+    width: 60%;
+  }
+/* For nav at the bottom */
+@media (min-width: 768px) and (max-width: 979px){
+    .page-nav .flex span {
+        display: inline-block;
+    }
+}
+
