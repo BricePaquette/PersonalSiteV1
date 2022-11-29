@@ -9,22 +9,49 @@ footer p.copyright{
 }
 
 /* Classmates */
-figure.works-item img{
-    max-height: 85%;
+  body.classmates .works-item img {
+    width: 100%;
+    border-radius: 150px;
+    max-height: 80%;
     max-width: auto;
-    
   }
-
-  /* Resume */
+  body.classmates .works-item .overlay {
+    border-radius: 150px;
+  }
+  body.classmates .works-item .overlay::before {
+    border:none; 
+  }
+  /* #region Resume */
   .history-item{
     padding-right: 10px;
+  }
+
+
+/* #endregion */
+  .a{
+    margin: 1em;
   }
 
   /* for line above copyright */
   .copy-line{
     width: 60%;
   }
+
+  /* For backgrounds */
+  .bg-city{
+    background-image: url('/images/backgrounds/kansascitybackground.jpg');
+    background-color: rgba(14, 17, 24, 0.97);
+  }
+  .bg-mountain{
+    background-image: url('/images/backgrounds/mountain.jpg');
+    background-color: rgba(14, 17, 24, 0.97);
+  }
 /* For nav at the bottom */
+
+/* For margin */
+.mb{
+  margin-bottom: 2.5em;
+}
 @media (min-width: 768px) and (max-width: 979px){
     .page-nav .flex span {
         display: inline-block;

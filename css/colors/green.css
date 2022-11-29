@@ -64,4 +64,8 @@
 .service-hex:hover .st1 {
   fill: #86A438;
 }
+.a:hover{
+  color: #86A438;
+  transition: .2s;
+}
 /*# sourceMappingURL=green.css.map */
